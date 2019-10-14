@@ -30,14 +30,17 @@ def contact():
         smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
         smtpObj.ehlo()
         smtpObj.starttls()
-        smtpObj.login(os.environ.get('MARIGOLD_EMAIL'), os.environ.get('MARIGOLD_PASS'))
-        from_address = os.environ.get('MARIGOLD_EMAIL')
-        to_address = os.environ.get('MARIGOLD_TOEMAIL')
+        # smtpObj.login(os.environ.get('MARIGOLD_EMAIL'), os.environ.get('MARIGOLD_PASS'))
+        # from_address = os.environ.get('MARIGOLD_EMAIL')
+        # to_address = os.environ.get('MARIGOLD_TOEMAIL')
+        smtpObj.login("maristudiocontact@gmail.com", "hiyduogsjxiqctbv")
+        from_address = "maristudiocontact@gmail.com"
+        to_address = "contact@marigoldstudio.com"
         if form.phone.data:
             phone = form.phone.data
         else:
             phone = 'Not provided'
-        message = f"Name - {form.name.data}\nEmail - {form.email.data}\nPhone - {phone}\nMessage - {form.text.name}"
+        message = f"Name - {form.name.data}\nEmail - {form.email.data}\nPhone - {phone}\nMessage - {form.text.data}"
         smtpObj.sendmail(from_addr=from_address, to_addrs=to_address, msg=message)
         smtpObj.quit()
 

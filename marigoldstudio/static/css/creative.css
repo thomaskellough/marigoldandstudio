@@ -11,6 +11,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --marigold-1: #fb890b;
+  --marigold-2: #fbc70b;
+  --marigold-3: #fb4f0b;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -162,6 +165,10 @@ a {
   color: #f4623a;
   text-decoration: none;
   background-color: transparent;
+}
+
+.marigold-color-1 {
+  color: #FB890B;
 }
 
 a:hover {
@@ -9564,7 +9571,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: var(--marigold-1);
 }
 
 hr.light {
@@ -9609,11 +9616,11 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: var(--marigold-1);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: var(--marigold-1) !important;
 }
 
 @media (min-width: 992px) {
@@ -9645,13 +9652,13 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: var(--marigold-1);
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: var(--marigold-1);
   }
 }
 
@@ -9729,8 +9736,4 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-}
-
-.service-items {
-  font-family: 'Mansalva', cursive;
 }
