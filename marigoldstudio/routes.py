@@ -25,9 +25,9 @@ def contact():
         smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
         smtpObj.ehlo()
         smtpObj.starttls()
-        smtpObj.login("maristudiocontact@gmail.com", "hiyduogsjxiqctbv")
-        from_address = "maristudiocontact@gmail.com"
-        to_address = "contact@marigoldstudio.com"
+        smtpObj.login(os.environ.get('MARIGOLD_EMAIL'), os.environ.get('MARIGOLD_PASS'))
+        from_address = os.environ.get('MARIGOLD_EMAIL')
+        to_address = os.environ.get('MARIGOLD_TOEMAIL')
         if form.phone.data:
             phone = form.phone.data
         else:
