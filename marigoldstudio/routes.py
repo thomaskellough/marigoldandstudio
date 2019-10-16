@@ -11,11 +11,6 @@ def home():
     return render_template('home.html', title='Home', company=company_name)
 
 
-@app.route('/home2')
-def home2():
-    return render_template('home2.html', title='Home', company=company_name)
-
-
 @app.route('/services')
 def services():
     return render_template('services.html', title='Services', company=company_name)
@@ -30,9 +25,6 @@ def contact():
         smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
         smtpObj.ehlo()
         smtpObj.starttls()
-        # smtpObj.login(os.environ.get('MARIGOLD_EMAIL'), os.environ.get('MARIGOLD_PASS'))
-        # from_address = os.environ.get('MARIGOLD_EMAIL')
-        # to_address = os.environ.get('MARIGOLD_TOEMAIL')
         smtpObj.login("maristudiocontact@gmail.com", "hiyduogsjxiqctbv")
         from_address = "maristudiocontact@gmail.com"
         to_address = "contact@marigoldstudio.com"

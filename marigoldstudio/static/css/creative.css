@@ -167,10 +167,6 @@ a {
   background-color: transparent;
 }
 
-.marigold-color-1 {
-  color: #FB890B;
-}
-
 a:hover {
   color: #d6370c;
   text-decoration: underline;
@@ -9737,3 +9733,4 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
