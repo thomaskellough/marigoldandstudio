@@ -40,8 +40,8 @@ def contact():
         return redirect(url_for('home'))
     elif form.errors:
         flash(f'Please correct the errors and resubmit the form.', 'danger')
-        return render_template('contact.html', title='Contact Me', form=form)
-    return render_template('contact.html', title='Contact', form=form)
+        return render_template('contact.html', title='Contact Me', company=company_name, form=form)
+    return render_template('contact.html', title='Contact', company=company_name, form=form)
 
 
 if __name__ == '__main__':
