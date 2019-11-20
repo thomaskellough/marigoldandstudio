@@ -15,10 +15,6 @@ def home():
 def services():
     return render_template('services.html', title='Services', company=company_name)
 
-@app.route('/home2')
-def home2():
-    return render_template('home2.html')
-
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
