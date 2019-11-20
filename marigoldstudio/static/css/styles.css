@@ -1,7 +1,85 @@
+:root {
+  --marigold-1: #ffd700;
+  --marigold-2: #fbc70b;
+  --marigold-3: #fb4f0b;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
 .marigold-color-1 {
-    color: purple;
+    color: var(--marigold-1);
+    border-color: var(--marigold-1);
+}
+
+a{
+  color: black;
 }
 
 .marigold-font {
-    font-family: 'Old Standard TT', serif !important;
+  font-family: 'Julius Sans One', sans-serif !important;
+  color: black;
+}
+
+header.masthead-marigold {
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+  /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/marigold-logo.png");*/
+  background-image: url("../img/marigold-logo2.png"), url("../img/marigold-masthead.jpg");
+  background-position: right, center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 50%, cover;
+}
+
+header.masthead-marigold h1 {
+  font-size: 2.25rem;
+}
+
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: var(--marigold-1);
+}
+
+.logo-resize {
+  width: 85%;
+  height: auto;
+}
+
+.btn-marigold {
+  color: white;
+  background-color: #EB6663;
+  border-color: #EB6663;
+}
+
+.btn-marigold:hover {
+  color: #fff;
+  background-color: #ee7c7a;
+  border-color: #ee7c7a;
+}
+
+.btn-marigold:focus, .btn-marigold.focus {
+  box-shadow: 0 0 0 0.2rem rgba(235, 102, 39, 0.5);
+}
+
+.btn-marigold.disabled, .btn-marigold:disabled {
+  color: #fff;
+  background-color: #EB6663;
+  border-color: #EB6663;
+}
+
+.btn-marigold:not(:disabled):not(.disabled):active, .btn-marigold:not(:disabled):not(.disabled).active,
+.show > .btn-marigold.dropdown-toggle {
+  color: #fff;
+  background-color: #EB6663;
+  border-color: #ee7c7a;
+}
+
+.btn-marigold:not(:disabled):not(.disabled):active:focus, .btn-marigold:not(:disabled):not(.disabled).active:focus,
+.show > .btn-marigold.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(235, 102, 39, 0.5);
 }
