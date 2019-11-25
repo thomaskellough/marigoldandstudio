@@ -22,10 +22,7 @@ function openPopup() {
 }
 
 function closePopup() {
-
     $('.popup').hide();
     $('.blur-all').children().unwrap();
     clearSnow();
 }
-setTimeout(openPopup, 3000);
-$('#closepopup').click(closePopup);
