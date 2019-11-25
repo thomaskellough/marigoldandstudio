@@ -83,3 +83,146 @@ hr.divider {
 .show > .btn-marigold.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(235, 102, 39, 0.5);
 }
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: none;
+  cursor: pointer;
+}
+
+#myPopup {
+  display: none;
+  z-index: 1;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  background-color: rgba(170, 212, 211, 1);
+  color: black;
+  border: 5px dotted #d92121;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+  position: fixed;
+  z-index: 1;
+  /*left: 5%;*/
+  width: 40%;
+  left: 30%;
+  top: 20%;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(170, 212, 211, 1) transparent transparent transparent;
+}
+
+.poph1 {
+  color: #d92121;
+  font-size: 3vw;
+  font-family: 'Julius Sans One', sans-serif !important;
+}
+
+.poph2 {
+  color: #1A7D21;
+  font-size: 2.5vw;
+  font-family: 'Julius Sans One', sans-serif !important;
+}
+
+.popinfo {
+  font-weight: bold;
+  font-size: 1.25vw;
+  font-family: 'Julius Sans One', sans-serif !important;
+}
+
+#closepopup {
+  font-size: x-small;
+}
+
+#closepopup:hover {
+  text-decoration: underline;
+}
+
+.closepopup {
+  font-size: 1vw;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Shink for easier reading on mobile devices */
+@media only screen and (max-width: 800px) {
+  .popup .popuptext {
+    width: 80%;
+    left: 10%;
+  }
+  .poph1 {
+    font-size: 5vw;
+  }
+  .poph2 {
+    font-size: 4.5vw;
+  }
+  .popinfo {
+    font-size: 3vw;
+  }
+}
+
+/* blur background while popup is present */
+.blur-all {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+/* Christmas snowflakes animation */
+.snowflakes{
+  width:5px;
+  height:5px;
+  border-radius:100px;
+  background-color:white;
+  position:absolute;
+  bottom:-100px;
+  left:100px;
+  animation-name:snowfall;
+  animation-duration:2s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes snowfall {
+	0% {
+      top:0;
+      opacity: 1;
+    }
+    100% {
+      top: 700px;
+      opacity: 0;
+      display: none;
+    }
+}
