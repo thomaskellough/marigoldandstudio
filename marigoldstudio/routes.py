@@ -44,5 +44,10 @@ def contact():
     return render_template('contact.html', title='Contact', company=company_name, form=form)
 
 
+@app.route('/treatments-json')
+def treatments_json():
+    return render_template('treatments.json')
+
+
 if __name__ == '__main__':
     app.run()

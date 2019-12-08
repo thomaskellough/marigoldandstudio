@@ -1,0 +1,21 @@
+{
+  "name": "Marigold and Studio Treatments",
+  "version": "1.0.0",
+  "treatments": {
+    "Skincare": {
+      "The Essential Custom Facial - 60 minutes $100": "This facial is uniquely crafted to your individual skincare needs and goals. No facial is the same!",
+      "The Dermaplane Express - 30 minutes $75": "Thirty minute dermaplaning treatment."
+    },
+    "A La Carte": [
+      "Dermaplaning - $60",
+      "Ayurvedic Scalp Treatment - $25",
+      "Peel Add-On - $60"
+    ],
+    "Series": "Purchase five of the same treatments at once and get one free!",
+    "Wax": [
+      "Brow - $25",
+      "Lip - $15",
+      "Brow + Lip - $38"
+    ]
+  }
+}
