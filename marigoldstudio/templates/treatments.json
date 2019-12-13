@@ -58,21 +58,6 @@
         },
         {
             "title":"Wax",
-            "body":"Brow - $25",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Lip - $15",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Brow + Lip - $38",
-            "subtitle":"",
-        },  
-        {
-            "title":"Wax",
             "body":"Chin - $15",
             "subtitle":"",
         },
@@ -152,24 +137,24 @@
             "subtitle":"",
         },
         {
-          "title":"Tint",
-          "body":"Brow - $25",
-          "subtitle":"",
+            "title":"Tint",
+            "body":"Brow - $25",
+            "subtitle":"",
         },
         {
-          "title":"Tint",
-          "body":"Lash - $35",
-          "subtitle":"",
+            "title":"Tint",
+            "body":"Lash - $35",
+            "subtitle":"",
         },
         {
-          "title":"Tint",
-          "body":"Brow + Lash - $55",
-          "subtitle":"",
+            "title":"Tint",
+            "body":"Brow + Lash - $55",
+            "subtitle":"",
         },
         {
-          "title":"Tint",
-          "body":"Beard Tint - $30",
-          "subtitle":"",
+            "title":"Tint",
+            "body":"Beard Tint - $30",
+            "subtitle":"",
         },
     ]
 }
