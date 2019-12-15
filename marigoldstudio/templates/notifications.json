@@ -1,0 +1,18 @@
+{
+    "metadata":{
+        "responseInfo":{
+            "status":200,
+            "developerMessage":"OK"
+        }
+    },
+    "results":[
+      {
+        "title":"Treat yourself",
+        "body":"Hey there beautiful! It’s a great day to treat yourself to something nice!"
+      },
+      {
+        "title":"Psst!",
+        "body":"Just because the holidays are over doesn’t mean you cant’t treat yourself!"
+      }
+    ]
+}

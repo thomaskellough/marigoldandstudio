@@ -49,5 +49,10 @@ def treatments_json():
     return render_template('treatments.json')
 
 
+@app.route('/notifications-json')
+def notifications_json():
+    return render_template('notifications.json')
+
+
 if __name__ == '__main__':
     app.run()
