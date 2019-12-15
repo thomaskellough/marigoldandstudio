@@ -6,170 +6,74 @@
         }
     },
     "results":[
-        {
-            "title":"Skincare",
-            "body":"The Essential Custom Facial - 60 minutes $100",
-            "subtitle":"This facial is uniquely crafted to your individual skincare needs and goals. No facial is the same!",
-        },
-        {
-            "title":"Skincare",
-            "body":"The Dermaplane Express - 30 minutes $75",
-            "subtitle":"Thirty minute dermaplaning treatment.",
-        },
-        {
-            "title":"Skincare",
-            "body":"The Back Facial - 45 minutes $75",
-            "subtitle":"A custom back treatment with exfoliation, extractions, and masks, leaving you smooth and relaxed.",
-        },
-        {
-            "title":"Skincare",
-            "body":"Youth-ifying Arm and Hand Treatment - 30 minutes $50",
-            "subtitle":"Deep exfoliation and an anti-aging peel to focus on brightening and texture. An add-on to a custom facial.",
-        },
-        {
-            "title":"Skincare",
-            "body":"Consultation - 15 minutes $20",
-            "subtitle":"A consultation will be 15 minutes with a $20 consultation fee. The consultation fee will be credited towards a scheduled service or recommended product at the time of consultation.",
-        },
-        {
-            "title":"A La Carte",
-            "body":"Dermaplaning - $60",
-            "subtitle":"",
-        },
-        {
-            "title":"A La Carte",
-            "body":"Ayurvedic Scalp Treatment - $25",
-            "subtitle":"",
-        },
-        {
-            "title":"A La Carte",
-            "body":"Peel Add-On - $60",
-            "subtitle":"",
-        },
-        {
-            "title":"A La Carte",
-            "body":"+ Extractions - $25 (15 minutes of additional time)",
-            "subtitle":"",
-        },
-        {
-            "title":"Series",
-            "body":"Purchase five of the same treatments at once and get one free!",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Brow - $25",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Lip - $15",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Brow + Lip - $38",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Chin - $15",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Nose - $15",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Ear - $18",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Chest - $75",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Side of face - $25",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Back + Shoulders - $80",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Partial Back - $60",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Bum - $35",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Underarm - $35",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Half arm - $45",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Full arm - $60",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Half leg - $75",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Full leg - $95",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Bikini - $60",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Frenchie - $60",
-            "subtitle":"",
-        },
-        {
-            "title":"Wax",
-            "body":"Brazilian - $75",
-            "subtitle":"",
-        },
-        {
-            "title":"Tint",
-            "body":"Brow - $25",
-            "subtitle":"",
-        },
-        {
-            "title":"Tint",
-            "body":"Lash - $35",
-            "subtitle":"",
-        },
-        {
-            "title":"Tint",
-            "body":"Brow + Lash - $55",
-            "subtitle":"",
-        },
-        {
-            "title":"Tint",
-            "body":"Beard Tint - $30",
-            "subtitle":"",
-        },
+      {
+        "type": "Skincare",
+        "name": [
+          "The Essential Custom Facial - 60 minutes $100",
+          "The Dermaplane Express - 30 minutes $75",
+          "The Back Facial - 45 minutes $75",
+          "Youth-ifying Arm and Hand Treatment - 30 minutes $50",
+          "Consultation - 15 minutes $20",
+        ],
+        "detail": [
+            "This facial is uniquely crafted to your individual skincare needs and goals. No facial is the same!",
+            "Thirty minute dermaplaning treatment.",
+            "A custom back treatment with exfoliation, extractions, and masks, leaving you smooth and relaxed.",
+            "Deep exfoliation and an anti-aging peel to focus on brightening and texture. An add-on to a custom facial.",
+            "A consultation will be 15 minutes with a $20 consultation fee. The consultation fee will be credited towards a scheduled service or recommended product at the time of consultation.",
+        ],
+      },
+      {
+        "type": "A La Carte",
+        "name": [
+          "Dermaplaning - $60",
+          "Ayurvedic Scalp Treatment - $25",
+          "Peel Add-On - $60",
+          "+ Extractions - $25 (15 minutes of additional time)",
+        ],
+        "detail": [],
+      },
+      {
+        "type": "Series",
+        "name": [
+          "Purchase five of the same treatments at once and get one free!",
+        ],
+        "detail": [],
+      },
+      {
+          "type": "Wax",
+          "name": [
+            "Brow - $25",
+            "Lip - $15",
+            "Brow + Lip - $38",
+            "Chin - $15",
+            "Nose - $15",
+            "Ear - $18",
+            "Chest - $75",
+            "Side of face - $25",
+            "Back + Shoulders - $80",
+            "Partial Back - $60",
+            "Bum - $35",
+            "Underarm - $35",
+            "Half arm - $45",
+            "Full arm - $60",
+            "Half leg - $75",
+            "Full leg - $95",
+            "Bikini - $60",
+            "Frenchie - $65",
+            "Brazilian - $75"
+        ],
+        "detail": [],
+      },
+      {
+        "type": "Tint",
+        "name": [
+          "Brow - $25",
+          "Lash - $35",
+          "Brow + Lash - $55",
+          "Beard Tint - $30",
+        ],
+        "detail": [],
+      },
     ]
 }
